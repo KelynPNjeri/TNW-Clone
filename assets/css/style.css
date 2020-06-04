@@ -47,15 +47,15 @@ body {
 
 #topics,
 #latest-deals {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
 }
 footer {
-    position: relative;
-    bottom: 0;
-    text-align: center;
-    margin-top: 20px;
+  position: relative;
+  bottom: 0;
+  text-align: center;
+  margin-top: 20px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -106,14 +106,67 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     margin-top: 10px;
-}
-footer {
+  }
+  footer {
     position: relative;
     bottom: 0;
     text-align: center;
     margin-top: 20px;
-}
-  
+  }
 }
 @media only screen and (min-width: 1024px) {
+  #header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: none;
+    background-color: black;
+  }
+  .navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .advert {
+    padding: 10px 15px;
+    text-align: center;
+  }
+  #news {
+    display: grid;
+    /* grid-template-columns: auto auto;
+        grid-template-rows: auto auto; */
+  }
+  .span {
+    grid-row: 1 / span 2;
+  }
+
+  .grid-parent,
+  #latest-deals {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto;
+    column-gap: 10px;
+  }
+  .box img {
+    width: 100px;
+    height: 50px;
+  }
+  .funding-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+  }
+  #topics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+  }
+  footer {
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    margin-top: 20px;
+  }
 }
