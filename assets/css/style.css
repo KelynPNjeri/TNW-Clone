@@ -38,30 +38,35 @@ body {
   grid-template-rows: repeat(3, 1fr);
   grid-template-columns: auto;
   row-gap: 10px;
+  padding: 0 10px;
+  margin-bottom: 100px;
+}
+.font-article {
+  font-size: Avalon;
 }
 
 #news .item1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.5) 100%),
+  background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.7) 100%),
     url("../images/mark.jpg");
   background-position: center;
   background-size: cover;
 }
 
 #news .item2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.5) 100%),
+  background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.7) 100%),
     url("../images/shopify.jpg");
   background-position: center;
   background-size: cover;
 }
 
 #news .item3 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.5) 100%),
+  background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.7) 100%),
     url("../images/trump.png");
   background-position: center;
   background-size: cover;
 }
 .box {
-  min-height: 150px;
+  min-height: 100px;
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-end;
@@ -74,11 +79,28 @@ body {
   text-decoration: none;
   color: beige;
   font-weight: bold;
-  
 }
 .news-topic {
   text-transform: uppercase;
 }
+
+.news-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.news-details .icon {
+  width: 30px;
+  height: 30px;
+}
+
+#latest-news {
+  border: 3px solid green;
+  padding: 0 15px;
+}
+
 .grid-parent {
   display: grid;
   grid-template-rows: repeat(8, 1fr);
