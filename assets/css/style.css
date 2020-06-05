@@ -41,32 +41,43 @@ body {
 }
 
 #news .item1 {
-  border: 3px solid red;
-  /* background: rgba(0, 0, 0, 1) url(../images/mark.jpg); */
   background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.5) 100%),
     url("../images/mark.jpg");
-
   background-position: center;
   background-size: cover;
 }
 
 #news .item2 {
-  border: 3px solid green;
-  background-image: url(../images/shopify.jpg);
-  opacity: 0.8;
+  background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.5) 100%),
+    url("../images/shopify.jpg");
   background-position: center;
   background-size: cover;
 }
 
 #news .item3 {
-  border: 3px solid blue;
-  background-image: url(../images/trump.png);
-  opacity: 0.8;
+  background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.5) 100%),
+    url("../images/trump.png");
   background-position: center;
   background-size: cover;
 }
 .box {
   min-height: 150px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  color: beige;
+  font-size: 1rem;
+  line-height: 1.6;
+  padding: 0.8rem 1rem;
+}
+.box a {
+  text-decoration: none;
+  color: beige;
+  font-weight: bold;
+  
+}
+.news-topic {
+  text-transform: uppercase;
 }
 .grid-parent {
   display: grid;
@@ -109,6 +120,7 @@ footer {
   #news {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    gap: 5px;
   }
   .span {
     grid-row: 1 / span 2;
