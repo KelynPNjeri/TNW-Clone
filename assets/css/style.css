@@ -80,7 +80,6 @@ body {
   color: beige;
   font-family: Avalon;
   font-weight: 800;
-  fnt
 }
 .news-topic {
   text-transform: uppercase;
@@ -110,6 +109,22 @@ body {
   grid-template-columns: auto;
   row-gap: 10px;
 }
+.card > img {
+  width: 15%;
+
+}
+.card {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+.card > div {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
 
 #topics,
 #latest-deals {
