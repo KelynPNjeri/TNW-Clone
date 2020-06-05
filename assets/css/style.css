@@ -1,4 +1,7 @@
+@import url(//db.onlinewebfonts.com/c/4629c048a3822d4fed2b0472eb3e708f?family=ARS + Maquette + Pro + Light);
+
 body {
+  font-family: ARS Maquette Pro Light, Arial, Helvetica, sans-serif;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -18,6 +21,7 @@ body {
   top: 0;
   width: 100%;
   background-color: black;
+  display: none;
 }
 .navbar {
   display: flex;
@@ -34,6 +38,32 @@ body {
   grid-template-rows: repeat(3, 1fr);
   grid-template-columns: auto;
   row-gap: 10px;
+}
+
+#news .item1 {
+  border: 3px solid red;
+  /* background: rgba(0, 0, 0, 1) url(../images/mark.jpg); */
+  background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.5) 100%),
+    url("../images/mark.jpg");
+
+  background-position: center;
+  background-size: cover;
+}
+
+#news .item2 {
+  border: 3px solid green;
+  background-image: url(../images/shopify.jpg);
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+}
+
+#news .item3 {
+  border: 3px solid blue;
+  background-image: url(../images/trump.png);
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
 }
 .box {
   min-height: 150px;
