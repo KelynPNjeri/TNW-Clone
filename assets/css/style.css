@@ -1,7 +1,6 @@
 @import "fonts.css";
-
 body {
-  font-family: ARS Maquette Pro Light, Arial, Helvetica, sans-serif;
+  font-family: ARSMaquette, Arial, Helvetica, sans-serif;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -22,20 +21,51 @@ body {
 #header {
   position: fixed;
   top: 0;
-  width: 100%;
-  background-color: black;
-  display: none;
+  width: 100%;  
+}
+.logo {
+  width: 20%;
+  padding: 10px;
+  height: fit-content;
+  background: #f42;
+  background-color: linear-gradient(to bottom right,#c09,#f42 85%);
 }
 
 .navbar {
+  background-color: beige;
+  height: 8vh;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
 }
+.actions .fas {
+  padding: 10px 15px;
+}
+.fa-bars,
+.fa-search {
+  font-size: 20px;
+}
+.fa-search {
+  border-right: 1px #ccc solid;
+  border-left: 1px #ccc solid;
+  color: #ccc;
+}
+.fa-bars {
+  color: #FF4422;
+}
+.menu-icon {
+  width: 20px;
+}
+.menu-icon > div {
+  height: 3px;
+}
 
 .advert {
-  padding: 10px 15px;
+  padding: 5px 15px;
+  text-align: center;
+  color: #000;
+  background-color: yellow;
   text-align: center;
 }
 
@@ -57,6 +87,7 @@ body {
     url("../images/mark.jpg");
   background-position: center;
   background-size: cover;
+  
 }
 
 #news .item2 {
@@ -71,6 +102,9 @@ body {
     url("../images/trump.png");
   background-position: center;
   background-size: cover;
+}
+.news-details {
+  font-size: 12px;
 }
 
 .box {
@@ -98,14 +132,15 @@ body {
 
 .news-details {
   display: flex;
+  flex-flow: row nowrap;
   align-items: center;
   justify-content: space-between;
-  width: 90%;
+  width: 100%;
 }
 
 .news-details .icon {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
 }
 
 #latest-news {
