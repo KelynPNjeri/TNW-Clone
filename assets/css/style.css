@@ -1,9 +1,14 @@
 @import "fonts.css";
+
 body {
   font-family: ARSMaquette, Arial, Helvetica, sans-serif;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+.container {
+  padding: 0 15px;
 }
 
 .red {
@@ -21,14 +26,15 @@ body {
 #header {
   position: fixed;
   top: 0;
-  width: 100%;  
+  width: 100%;
 }
+
 .logo {
   width: 20%;
   padding: 10px;
   height: fit-content;
   background: #f42;
-  background-color: linear-gradient(to bottom right,#c09,#f42 85%);
+  background-color: linear-gradient(to bottom right, #c09, #f42 85%);
 }
 
 .navbar {
@@ -39,34 +45,41 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
 .actions .fas {
   padding: 10px 15px;
 }
+
 .fa-bars,
 .fa-search {
   font-size: 20px;
 }
+
 .fa-search {
   border-right: 1px #ccc solid;
   border-left: 1px #ccc solid;
   color: #ccc;
 }
+
 .fa-bars {
-  color: #FF4422;
+  color: #f42;
 }
+
 .menu-icon {
   width: 20px;
 }
+
 .menu-icon > div {
   height: 3px;
 }
 
 .advert {
-  padding: 5px 15px;
+  padding: 5px 10px;
   text-align: center;
   color: #000;
   background-color: yellow;
   text-align: center;
+  font-size: 12px;
 }
 
 #news {
@@ -83,26 +96,29 @@ body {
 }
 
 #news .item1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.7) 100%),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.7) 100%),
     url("../images/mark.jpg");
   background-position: center;
   background-size: cover;
-  
 }
 
 #news .item2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.7) 100%),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.7) 100%),
     url("../images/shopify.jpg");
   background-position: center;
   background-size: cover;
 }
 
 #news .item3 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.7) 100%),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.7) 100%),
     url("../images/trump.png");
   background-position: center;
   background-size: cover;
 }
+
 .news-details {
   font-size: 12px;
 }
@@ -143,16 +159,12 @@ body {
   height: 20px;
 }
 
-#latest-news {
-  border: 3px solid green;
-  padding: 0 15px;
-}
-
 #latest-news h2 a {
-  font-family: Avalon,
+  font-family:
+    Avalon,
     sans-serif;
   font-size: 28px;
-  color: #FF4422;
+  color: #f42;
   text-decoration: none;
 }
 
@@ -163,7 +175,7 @@ body {
   row-gap: 10px;
 }
 
-.card>img {
+.card > img {
   width: 75px;
   height: 75px;
   padding-right: 20px;
@@ -179,23 +191,23 @@ body {
   padding-top: 10px;
   font-family: Times New Roman;
   font-size: 14px;
-  color: #AAAAAA;
+  color: #aaa;
 }
 
 .card h4 {
   margin: 0;
   font-family: ARSMaquette, Helvetica Neue, Arial, sans-serif;
-  color: #000000;
+  color: #000;
 }
 
 .card a {
   text-decoration: none;
-  color: #000000;
+  color: #000;
 }
 
 .card a:hover {
   text-decoration: underline;
-  color: #FF4422
+  color: #f42;
 }
 
 #topics,
@@ -203,6 +215,15 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   gap: 10px;
+}
+
+#funding a {
+  text-decoration: none;
+  color: #f42;
+}
+
+#funding a:hover {
+  color: #000;
 }
 
 footer {
