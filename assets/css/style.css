@@ -222,22 +222,26 @@ body {
   text-decoration: none;
 }
 
-funding-container {
-  /* padding: 0 15px; */
-  /* width: 70%; */
+.funding-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  row-gap: 10px;
 }
 
-.funding .card1 {
-  background-color: green;
+.funding-container .cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 3px solid red;
+  background: rgba(255, 68, 34, 0.08);
 }
 
-.funding .card2 {
-  background-color: blue;
+.funding-container .cards h4 {
+  background: #ff4422;
+  color: black;
+  min-width: 100%;
 }
 
-.funding .card3 {
-  background-color: red;
-}
 footer {
   position: relative;
   bottom: 0;
