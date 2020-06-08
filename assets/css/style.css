@@ -6,6 +6,10 @@ body {
   margin: 0;
 }
 
+.container {
+  padding: 0 15px;
+}
+
 .red {
   background-color: red;
 }
@@ -21,14 +25,14 @@ body {
 #header {
   position: fixed;
   top: 0;
-  width: 100%;  
+  width: 100%;
 }
 .logo {
   width: 20%;
   padding: 10px;
   height: fit-content;
   background: #f42;
-  background-color: linear-gradient(to bottom right,#c09,#f42 85%);
+  background-color: linear-gradient(to bottom right, #c09, #f42 85%);
 }
 
 .navbar {
@@ -52,7 +56,7 @@ body {
   color: #ccc;
 }
 .fa-bars {
-  color: #FF4422;
+  color: #ff4422;
 }
 .menu-icon {
   width: 20px;
@@ -73,7 +77,7 @@ body {
   display: grid;
   grid-template-rows: repeat(3, 1fr);
   grid-template-columns: auto;
-  row-gap: 10px;
+  /* row-gap: 10px; */
   padding: 0 10px;
   margin-bottom: 100px;
 }
@@ -87,7 +91,6 @@ body {
     url("../images/mark.jpg");
   background-position: center;
   background-size: cover;
-  
 }
 
 #news .item2 {
@@ -145,14 +148,13 @@ body {
 
 #latest-news {
   border: 3px solid green;
-  padding: 0 15px;
+  /* padding: 0 15px; */
 }
 
 #latest-news h2 a {
-  font-family: Avalon,
-    sans-serif;
+  font-family: Avalon, sans-serif;
   font-size: 28px;
-  color: #FF4422;
+  color: #ff4422;
   text-decoration: none;
 }
 
@@ -163,7 +165,7 @@ body {
   row-gap: 10px;
 }
 
-.card>img {
+.card > img {
   width: 75px;
   height: 75px;
   padding-right: 20px;
@@ -179,7 +181,7 @@ body {
   padding-top: 10px;
   font-family: Times New Roman;
   font-size: 14px;
-  color: #AAAAAA;
+  color: #aaaaaa;
 }
 
 .card h4 {
@@ -195,7 +197,7 @@ body {
 
 .card a:hover {
   text-decoration: underline;
-  color: #FF4422
+  color: #ff4422;
 }
 
 #topics,
@@ -204,7 +206,38 @@ body {
   grid-template-columns: 1fr;
   gap: 10px;
 }
+.funding {
+  border: 3px solid orange;
+  padding: 0 15px;
+  margin: 20px;
+}
 
+.funding a {
+  color: #ff4422;
+  text-decoration: none;
+}
+
+.funding a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+funding-container {
+  /* padding: 0 15px; */
+  /* width: 70%; */
+}
+
+.funding .card1 {
+  background-color: green;
+}
+
+.funding .card2 {
+  background-color: blue;
+}
+
+.funding .card3 {
+  background-color: red;
+}
 footer {
   position: relative;
   bottom: 0;
