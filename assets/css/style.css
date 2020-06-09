@@ -27,6 +27,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 10;
 }
 
 .logo {
@@ -44,6 +45,7 @@ body {
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 .actions .fas {
@@ -131,7 +133,7 @@ body {
   color: beige;
   font-size: 1rem;
   line-height: 1.6;
-  padding: 0.8rem 1rem;
+  /* padding: 0.8rem 1rem; */
 }
 
 .box a {
@@ -216,11 +218,6 @@ body {
   grid-template-columns: 1fr;
   gap: 10px;
 }
-.funding {
-  border: 3px solid orange;
-  padding: 0 15px;
-  margin: 20px;
-}
 
 .funding a {
   color: #ff4422;
@@ -242,14 +239,36 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  border: 3px solid red;
-  background: rgba(255, 68, 34, 0.08);
+  font-size: 14px;
 }
 
-.funding-container .cards h4 {
+.funding-container .cards h4,
+.funding-container .cards div {
   background: #ff4422;
-  color: black;
-  min-width: 100%;
+  color: #fff;
+  margin: 0;
+  padding: 10px 85px 10px;
+}
+
+.funding-container .cards .company-details {
+  background: rgba(255, 68, 34, 0.08);
+  color: #555;
+  text-transform: uppercase;
+
+}
+.company-details p:nth-child(2){
+  margin-top: -5px;
+  
+}
+
+.cards img {
+  width: 60px;
+  height: 60px;
+  margin-top: 12px;
+  margin-left: 15px;
+  position: absolute;
+  
+
 }
 
 #funding a {
