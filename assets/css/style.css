@@ -45,7 +45,6 @@ body {
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 .actions .fas {
@@ -89,7 +88,7 @@ body {
   grid-template-rows: repeat(3, 1fr);
   grid-template-columns: auto;
   row-gap: 10px;
-  margin-bottom: 100px;
+  margin: 100px 0;
 }
 
 .font-article {
@@ -97,24 +96,21 @@ body {
 }
 
 #news .item1 {
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.7) 100%),
+  background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.7) 100%),
     url("../images/mark.jpg");
   background-position: center;
   background-size: cover;
 }
 
 #news .item2 {
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.7) 100%),
+  background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.7) 100%),
     url("../images/shopify.jpg");
   background-position: center;
   background-size: cover;
 }
 
 #news .item3 {
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.7) 100%),
+  background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.7) 100%),
     url("../images/trump.png");
   background-position: center;
   background-size: cover;
@@ -132,7 +128,6 @@ body {
   color: beige;
   font-size: 1rem;
   line-height: 1.6;
-  /* padding: 0.8rem 1rem; */
 }
 
 .box a {
@@ -161,9 +156,7 @@ body {
 }
 
 #latest-news h2 a {
-  font-family:
-    Avalon,
-    sans-serif;
+  font-family: Avalon, sans-serif;
   font-size: 28px;
   color: #f42;
   text-decoration: none;
@@ -211,6 +204,18 @@ body {
   color: #f42;
 }
 
+.topic-heads a {
+  color: #f42;
+  text-decoration: none;
+  position: absolute;
+  margin-top: 0;
+}
+
+.topic-heads a:hover {
+  color: black;
+  text-decoration: none;
+}
+
 #topics,
 #latest-deals {
   display: grid;
@@ -222,6 +227,19 @@ body {
   padding-top: 10px;
 }
 
+.app-img {
+  background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.7) 100%),
+    url("../images/mark.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 100px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  color: beige;
+  font-size: 1rem;
+  line-height: 1.6;
+}
 .funding a {
   color: #ff4422;
   text-decoration: none;
@@ -272,27 +290,24 @@ body {
   margin-top: -15px;
 }
 
-
 .company-specific-info {
   padding: 10px 15px;
 }
 .company-specific-info div {
   color: #aaa;
   margin: 5px 0;
-  
 }
 .card-description {
   color: #555;
-  border-top: 1px rgba(255, 68, 34, 0.08) solid;
+  border-top: 3px rgba(255, 68, 34, 0.08) solid;
   padding: 10px 10px;
   font-size: 12px;
-
 }
-.company-specific-info div>i {
+.company-specific-info div > i {
   color: #000;
   font-size: 16px;
 }
-.company-specific-info div>span {
+.company-specific-info div > span {
   padding-left: 10px;
   font-size: 14px;
 }
