@@ -7,6 +7,10 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   padding: 0 15px;
 }
@@ -24,7 +28,7 @@ body {
 }
 
 #header {
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
   z-index: 10;
@@ -82,6 +86,7 @@ body {
   background-color: yellow;
   text-align: center;
   font-size: 12px;
+  overflow: hidden;
 }
 
 #news {
@@ -160,7 +165,7 @@ body {
   height: 20px;
 }
 
-#latest-news h2 a {
+.latest-news h2 a {
   font-family:
     Avalon,
     sans-serif;
@@ -212,7 +217,7 @@ body {
 }
 
 #topics,
-#latest-deals {
+.latest-deals {
   display: grid;
   grid-template-columns: 1fr;
   gap: 10px;
@@ -283,7 +288,7 @@ body {
 }
 .card-description {
   color: #555;
-  border-top: 1px rgba(255, 68, 34, 0.08) solid;
+  border-top: 2px rgba(255, 68, 34, 0.08) solid;
   padding: 10px 10px;
   font-size: 12px;
 
@@ -313,12 +318,129 @@ body {
 #funding a:hover {
   color: #000;
 }
+.app-image {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.7) 100%),
+    url("../images/mark.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 400px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  color: beige;
+  font-size: 1rem;
+  line-height: 1.6;
+  padding: 0 1.2rem;
+}
+.app-image a {
+  text-decoration: none;
+  color: beige;
+  font-family: Avalon;
+  font-weight: 800;
+}
+.app-latest-news {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #f42;
+  background-color: rgba(255, 68, 34, 0.08);
+}
+.app-latest-news img {
+  width: 100px;
+  height: 80px;
+}
+
+.app-latest-news div {
+  padding: 10px;
+}
+.app-latest-news div>p {
+  padding: 5px 0 0 0;
+  margin: 0;
+}
+
+.app-latest-news div>p>a {
+  color: #f42;
+}
+
+.app-items {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.app-items li::before {
+  content: "\2022";
+  color: #f42;
+  padding: 10px 10px 10px 0;
+}
+
+.app-item a {
+  color: #555;
+  text-decoration: none;
+  font-size: 12px;
+}
+.app-items a:hover {
+  color: #000;
+}
+
 
 footer {
   position: relative;
   bottom: 0;
   text-align: center;
   margin-top: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.upper-footer {
+  background-color: #131313;
+  color: #555;
+}
+.lower-footer {
+  background-color: #000;
+  color: #aaa;
+  font-size: 13px;
+  padding: 20px 15px;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+}
+.copyright img {
+  width: 60px;
+  padding: 0 10px;
+}
+.social {
+  padding: 20px;
+}
+.social i {
+  display: inline-block;
+  border-radius: 60px;
+  font-size: 20px;
+  background-color: #333;
+  padding: 0.5em 0.6em;
+  color: #fff;
+}
+.sitemap {
+  font-family: Shentox;
+  width: 90%;
+}
+.links {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.link {
+  font-size: 13px;
+  padding: 15px 20px;
+}
+.link a {
+  color: #aaa;
+  font-weight: bold;
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 768px) {
