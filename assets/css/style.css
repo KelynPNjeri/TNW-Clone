@@ -74,7 +74,7 @@ a {
   width: 20px;
 }
 
-.menu-icon > div {
+.menu-icon>div {
   height: 3px;
 }
 
@@ -176,7 +176,7 @@ a {
   row-gap: 10px;
 }
 
-.card > img {
+.card>img {
   width: 75px;
   height: 75px;
   padding-right: 20px;
@@ -247,6 +247,7 @@ a {
   font-size: 1rem;
   line-height: 1.6;
 }
+
 .funding a {
   color: #ff4422;
   text-decoration: none;
@@ -300,21 +301,25 @@ a {
 .company-specific-info {
   padding: 10px 15px;
 }
+
 .company-specific-info div {
   color: #aaa;
   margin: 5px 0;
 }
+
 .card-description {
   color: #555;
   border-top: 2px rgba(255, 68, 34, 0.08) solid;
   padding: 10px 10px;
   font-size: 12px;
 }
-.company-specific-info div > i {
+
+.company-specific-info div>i {
   color: #000;
   font-size: 16px;
 }
-.company-specific-info div > span {
+
+.company-specific-info div>span {
   padding-left: 10px;
   font-size: 14px;
 }
@@ -335,6 +340,15 @@ a {
 #funding a:hover {
   color: #000;
 }
+
+.app a {
+  color: #f42;
+}
+
+.app a:hover {
+  color: black;
+}
+
 .app-image {
   background:
     linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.7) 100%),
@@ -350,12 +364,14 @@ a {
   line-height: 1.6;
   padding: 0 1.2rem;
 }
+
 .app-image a {
   text-decoration: none;
   color: beige;
   font-family: Avalon;
   font-weight: 800;
 }
+
 .app-latest-news {
   display: flex;
   flex-flow: row nowrap;
@@ -364,6 +380,7 @@ a {
   color: #f42;
   background-color: rgba(255, 68, 34, 0.08);
 }
+
 .app-latest-news img {
   width: 100px;
   height: 80px;
@@ -372,6 +389,7 @@ a {
 .app-latest-news div {
   padding: 10px;
 }
+
 .app-latest-news div>p {
   padding: 5px 0 0 0;
   margin: 0;
@@ -386,6 +404,7 @@ a {
   padding: 0;
   margin: 0;
 }
+
 .app-items li::before {
   content: "\2022";
   color: #f42;
@@ -397,6 +416,7 @@ a {
   text-decoration: none;
   font-size: 12px;
 }
+
 .app-items a:hover {
   color: #000;
 }
@@ -415,23 +435,28 @@ footer {
   background-color: #131313;
   color: #555;
 }
+
 .lower-footer {
   background-color: #000;
   color: #aaa;
   font-size: 13px;
   padding: 20px 15px;
 }
+
 .copyright {
   display: flex;
   justify-content: center;
 }
+
 .copyright img {
   width: 60px;
   padding: 0 10px;
 }
+
 .social {
   padding: 20px;
 }
+
 .social i {
   display: inline-block;
   border-radius: 60px;
@@ -440,20 +465,24 @@ footer {
   padding: 0.5em 0.6em;
   color: #fff;
 }
+
 .sitemap {
   font-family: Shentox;
   width: 90%;
 }
+
 .links {
   list-style-type: none;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
+
 .link {
   font-size: 13px;
   padding: 15px 20px;
 }
+
 .link a {
   color: #aaa;
   font-weight: bold;
