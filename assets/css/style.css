@@ -588,6 +588,53 @@ footer {
     color: #fff;
   }
 
+  /* .lower-navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid red;
+    height: 40px;
+    position: sticky;
+  }
+
+  .lower-navbar ul {
+    display: flex;
+    flex-flow: row nowrap;
+    padding-left: 10px;
+    align-items: center;
+  }
+
+  .lower-navbar ul li {
+    list-style-type: none;
+    padding-left: 10px;
+
+  }
+
+  .lower-navbar ul li a {
+    color: #AAAAAA;
+    font-size: 14px;
+    font-family: Shentox;
+  }
+
+  .lower-navbar .fa-search {
+    font-size: 20px;
+  }
+
+  .lower-navbar .btn-1 {
+    font-family: ARSMaquette;
+    padding: 5px 12px;
+    border: none;
+    border-radius: 2px;
+    margin-right: 5px;
+    background-color: #00CCCC;
+    color: #ffff;
+  }
+
+  .lower-navbar .btn-1:hover {
+    background-color: purple;
+  } */
+
   #header {
     position: sticky;
     top: 0;
