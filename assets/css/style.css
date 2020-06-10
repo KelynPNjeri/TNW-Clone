@@ -93,7 +93,6 @@ a {
   grid-template-rows: repeat(3, 1fr);
   grid-template-columns: auto;
   row-gap: 10px;
-  margin: 100px 0;
 }
 
 .font-article {
@@ -276,6 +275,7 @@ a {
   color: #fff;
   margin: 0;
   padding: 10px 85px 10px;
+  font-size: 18px;
 }
 
 .funding-container .cards .company-details {
@@ -290,10 +290,12 @@ a {
   font-weight: bold;
   padding-top: 2px;
   margin-top: -10px;
+  font-size: 18px;
 }
 
 .company-details p:nth-child(2) {
   font-family: Shentox;
+  font-size: 11px;
   color: #555;
   margin-top: -15px;
 }
