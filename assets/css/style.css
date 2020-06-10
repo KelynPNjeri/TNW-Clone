@@ -21,6 +21,7 @@ a {
   width: 100%;
   z-index: 10;
 }
+
 .upper-navbar {
   display: none;
 }
@@ -32,12 +33,14 @@ a {
   background: #f42;
   background-color: linear-gradient(to bottom right, #c09, #f42 85%);
 }
+
 .logo1 ul {
   display: none;
 }
+
 .actions p,
 .actions a {
-  display: none ;
+  display: none;
 }
 
 .navbar {
@@ -48,6 +51,7 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+
 .actions {
   display: flex;
 }
@@ -87,6 +91,7 @@ a {
   text-align: center;
   font-size: 12px;
 }
+
 .advert p {
   white-space: nowrap;
   overflow: hidden;
@@ -124,6 +129,7 @@ a {
   background-position: center;
   background-size: cover;
 }
+
 .item1,
 .item2,
 .item3 {
@@ -177,6 +183,16 @@ a {
     sans-serif;
   font-size: 28px;
   color: #f42;
+  text-decoration: none;
+}
+
+.details span a {
+  color: #AAAAAA;
+  font-size: 14px;
+}
+
+.details span a:hover {
+  color: black;
   text-decoration: none;
 }
 
@@ -384,6 +400,11 @@ a {
   font-weight: 800;
 }
 
+.app-image a:,
+.app-latest-news p>a:hover {
+  text-decoration: underline;
+}
+
 .app-latest-news {
   display: flex;
   flex-flow: row nowrap;
@@ -416,6 +437,7 @@ a {
   padding: 0;
   margin: 0;
 }
+
 .app-items .app-item {
   padding: 10px 5px;
   text-align: justify;
@@ -437,12 +459,15 @@ a {
 .app-items a:hover {
   color: #000;
 }
+
 .details span {
   padding: 0 5px;
 }
+
 .strike {
   text-decoration: line-through;
 }
+
 .bold {
   color: #000;
 }
@@ -553,13 +578,15 @@ footer {
     grid-template-rows: auto auto auto;
     column-gap: 10px;
   }
+
   .card {
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
     align-items: center;
   }
-  .card > img {
+
+  .card>img {
     width: 100%;
     height: 150px;
   }
@@ -576,6 +603,7 @@ footer {
     height: 60vh;
     padding-top: 20px;
   }
+
   .cards img {
     width: 60px;
     height: 60px;
@@ -583,6 +611,7 @@ footer {
     margin-left: 15px;
     position: absolute;
   }
+
   .app-items .app-item {
     padding: 10px 5px;
     text-align: justify;
@@ -609,6 +638,7 @@ footer {
     width: 90%;
     margin: 0 auto;
   }
+
   .upper-navbar {
     display: flex;
     flex-flow: row nowrap;
@@ -616,23 +646,27 @@ footer {
     align-items: center;
     background-color: #000;
   }
+
   .upper-navbar div {
     display: flex;
     flex-flow: row nowrap;
 
   }
+
   .upper-navbar div li {
     list-style-type: none;
     padding: 10px;
   }
+
   .upper-navbar div li>a {
     color: #aaa;
     font-size: 12px;
   }
+
   .unique {
     color: #fff;
   }
-  
+
   #header {
     position: sticky;
     top: 0;
@@ -649,6 +683,7 @@ footer {
     justify-content: space-between;
     align-items: center;
   }
+
   .logo1,
   .actions,
   .logo1 ul {
@@ -658,22 +693,30 @@ footer {
     align-items: center;
     width: fit-content;
   }
+
+  .logo1 ul a:hover {
+    color: black;
+  }
+
   .actions p,
-.actions a {
-  display: inline-block ;
-}
+  .actions a {
+    display: inline-block;
+  }
+
   .logo {
     width: 10%;
     align-items: center;
     height: 5vh;
   }
+
   .logo1 ul>li {
     white-space: nowrap;
   }
+
   .logo1 ul>li:nth-child(1) {
     padding: 0;
   }
-  
+
   .logo1 ul>li>a {
     padding: 0 10px;
     font-size: 13px;
@@ -681,9 +724,11 @@ footer {
     color: #aaa;
     font-family: Shentox, sans-serif;
   }
+
   .fa-bars {
     display: none;
   }
+
   .fa-search {
     border: none;
     border-left: 1px #ccc solid;
@@ -702,16 +747,19 @@ footer {
     justify-content: space-evenly;
     align-items: center;
   }
+
   .actions p {
     padding: 10px;
     font-size: 13px;
     font-family: Shentox, sans-serif;
   }
+
   .timer {
     font-size: 16px;
     color: #f42;
   }
-  .actions .btn{
+
+  .actions .btn {
     border: none;
     border-radius: 2px;
     background-color: #00cccc;
@@ -719,9 +767,11 @@ footer {
     padding: 5px 12px;
     margin-right: 5px;
   }
+
   .actions .btn:hover {
     background-color: purple;
   }
+
   #news {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -729,28 +779,42 @@ footer {
     padding: 0 10px;
     height: 80vh;
   }
+
   .item1>a {
     font-size: 56px;
     font-family: Avalon, sans-serif;
   }
-  .item1, 
+
+  .item1,
   .item2,
   .item3 {
     padding: 10px 20px;
   }
-  .item2 >a , 
+
+  .item2>a,
   .item3>a {
     font-size: 22px;
     font-family: Avalon, sans-serif;
   }
+
   .news-details {
     width: 40%;
     display: flex;
     justify-content: flex-start;
   }
-  .news-details > * {
+
+  #news .news-details p {
+    color: rgba(255, 255, 255, 0.6)
+  }
+
+  #news .news-details p a:hover {
+    color: #ffff;
+  }
+
+  .news-details>* {
     padding: 5px;
   }
+
   .item3 .news-details {
     width: 100%;
   }
@@ -772,37 +836,39 @@ footer {
     width: 100px;
     height: 50px;
   }
-  .funding{
+
+  .funding {
     height: 70vh;
   }
+
   .funding-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 
     grid-column-gap: 10px;
-    
+
   }
 
-  
+
   .funding-container {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     row-gap: 10px;
   }
-  
+
   .funding-container .cards {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
   }
-  
+
   .funding-container .cards h4 {
     background: #ff4422;
     color: #fff;
     margin: 0;
     padding: 10px 85px 10px;
   }
-  
+
   .funding-container .cards .company-details {
     padding: 10px 85px 10px;
     background: rgba(255, 68, 34, 0.08);
@@ -811,46 +877,57 @@ footer {
     height: fit-content;
     font-size: 13px;
   }
-  
+
   .company-details p:nth-child(1) {
     font-weight: bold;
     padding-top: 2px;
     margin-top: -10px;
   }
-  
+
   .company-details p:nth-child(2) {
     font-family: Shentox;
     font-size: 11px;
     color: #555;
     margin-top: -15px;
   }
-  
+
   .company-specific-info {
     padding: 10px 15px;
   }
-  
+
   .company-specific-info div {
     color: #aaa;
     margin: 5px 0;
   }
-  
+
+  .company-specific-info span a {
+    text-decoration: none;
+    color: #AAAAAA;
+    font-size: 14px;
+  }
+
+  .company-specific-info span a:hover {
+    text-decoration: none;
+    color: #black;
+  }
+
   .card-description {
     color: #555;
     border-top: 2px rgba(255, 68, 34, 0.08) solid;
     padding: 10px 10px;
     font-size: 12px;
   }
-  
+
   .company-specific-info div>i {
     color: #000;
     font-size: 16px;
   }
-  
+
   .company-specific-info div>span {
     padding-left: 10px;
     font-size: 14px;
   }
-  
+
   .cards img {
     width: 60px;
     height: 60px;
@@ -858,8 +935,8 @@ footer {
     margin-left: 15px;
     position: absolute;
   }
-  
-  
+
+
 
   #topics {
     display: grid;
@@ -867,16 +944,19 @@ footer {
     gap: 10px;
     margin-top: 10px;
   }
+
   .card {
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
     align-items: center;
   }
-  .card > img {
+
+  .card>img {
     width: 100%;
     height: 150px;
   }
+
   .funding-info {
     display: flex;
     flex-flow: row nowrap;
@@ -884,6 +964,7 @@ footer {
     align-items: center;
     margin-top: -25px;
   }
+
   .funding-intro {
     display: flex;
     flex-flow: row nowrap;
@@ -891,12 +972,13 @@ footer {
     align-items: center;
     padding-top: 20px;
   }
+
   .funding-info p:nth-child(1) {
     padding: 0 10px 0 0;
     border: none;
   }
 
-  .funding-info > * {
+  .funding-info>* {
     padding: 0 10px;
     border-left: 2px #f42 solid;
   }
@@ -907,11 +989,12 @@ footer {
     border-bottom: 1px #ccc solid;
   }
 
-  .social > * {
+  .social>* {
     margin: 0 10px;
   }
-  .sitemap ,
-  .social{
+
+  .sitemap,
+  .social {
     margin: 0 auto;
   }
 
