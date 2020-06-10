@@ -645,22 +645,24 @@ footer {
     justify-content: space-between;
     align-items: center;
     background-color: #000;
+    height: 6vh;
   }
 
-  .upper-navbar div {
+  .upper-navbar div ul {
     display: flex;
     flex-flow: row nowrap;
 
   }
 
-  .upper-navbar div li {
+  .upper-navbar div ul {
     list-style-type: none;
     padding: 10px;
   }
 
-  .upper-navbar div li>a {
+  .upper-navbar div ul li>a {
     color: #aaa;
     font-size: 12px;
+    padding: 0 10px;
   }
 
   .unique {
