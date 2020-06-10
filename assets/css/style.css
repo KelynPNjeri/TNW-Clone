@@ -539,7 +539,7 @@ footer {
   #news {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    gap: 8px;
+    gap: 5px;
   }
 
   .span {
@@ -609,7 +609,6 @@ footer {
     width: 90%;
     margin: 0 auto;
   }
-
   .upper-navbar {
     display: flex;
     flex-flow: row nowrap;
@@ -617,74 +616,23 @@ footer {
     align-items: center;
     background-color: #000;
   }
-
   .upper-navbar div {
     display: flex;
     flex-flow: row nowrap;
 
   }
-
   .upper-navbar div li {
     list-style-type: none;
     padding: 10px;
   }
-
   .upper-navbar div li>a {
     color: #aaa;
     font-size: 12px;
   }
-
   .unique {
     color: #fff;
   }
-
-  /* .lower-navbar {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    align-items: center;
-    border: 2px solid red;
-    height: 40px;
-    position: sticky;
-  }
-
-  .lower-navbar ul {
-    display: flex;
-    flex-flow: row nowrap;
-    padding-left: 10px;
-    align-items: center;
-  }
-
-  .lower-navbar ul li {
-    list-style-type: none;
-    padding-left: 10px;
-
-  }
-
-  .lower-navbar ul li a {
-    color: #AAAAAA;
-    font-size: 14px;
-    font-family: Shentox;
-  }
-
-  .lower-navbar .fa-search {
-    font-size: 20px;
-  }
-
-  .lower-navbar .btn-1 {
-    font-family: ARSMaquette;
-    padding: 5px 12px;
-    border: none;
-    border-radius: 2px;
-    margin-right: 5px;
-    background-color: #00CCCC;
-    color: #ffff;
-  }
-
-  .lower-navbar .btn-1:hover {
-    background-color: purple;
-  } */
-
+  
   #header {
     position: sticky;
     top: 0;
@@ -777,34 +725,28 @@ footer {
     padding: 0 10px;
     height: 80vh;
   }
-
   .item1>a {
     font-size: 56px;
     font-family: Avalon, sans-serif;
   }
-
-  .item1,
+  .item1, 
   .item2,
   .item3 {
     padding: 10px 20px;
   }
-
-  .item2>a,
+  .item2 >a , 
   .item3>a {
     font-size: 22px;
     font-family: Avalon, sans-serif;
   }
-
   .news-details {
     width: 40%;
     display: flex;
     justify-content: flex-start;
   }
-
-  .news-details>* {
+  .news-details > * {
     padding: 5px;
   }
-
   .item3 .news-details {
     width: 100%;
   }
@@ -826,39 +768,37 @@ footer {
     width: 100px;
     height: 50px;
   }
-
-  .funding {
+  .funding{
     height: 70vh;
   }
-
   .funding-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 
     grid-column-gap: 10px;
-
+    
   }
 
-
+  
   .funding-container {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     row-gap: 10px;
   }
-
+  
   .funding-container .cards {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
   }
-
+  
   .funding-container .cards h4 {
     background: #ff4422;
     color: #fff;
     margin: 0;
     padding: 10px 85px 10px;
   }
-
+  
   .funding-container .cards .company-details {
     padding: 10px 85px 10px;
     background: rgba(255, 68, 34, 0.08);
@@ -867,46 +807,46 @@ footer {
     height: fit-content;
     font-size: 13px;
   }
-
+  
   .company-details p:nth-child(1) {
     font-weight: bold;
     padding-top: 2px;
     margin-top: -10px;
   }
-
+  
   .company-details p:nth-child(2) {
     font-family: Shentox;
     font-size: 11px;
     color: #555;
     margin-top: -15px;
   }
-
+  
   .company-specific-info {
     padding: 10px 15px;
   }
-
+  
   .company-specific-info div {
     color: #aaa;
     margin: 5px 0;
   }
-
+  
   .card-description {
     color: #555;
     border-top: 2px rgba(255, 68, 34, 0.08) solid;
     padding: 10px 10px;
     font-size: 12px;
   }
-
+  
   .company-specific-info div>i {
     color: #000;
     font-size: 16px;
   }
-
+  
   .company-specific-info div>span {
     padding-left: 10px;
     font-size: 14px;
   }
-
+  
   .cards img {
     width: 60px;
     height: 60px;
@@ -914,8 +854,8 @@ footer {
     margin-left: 15px;
     position: absolute;
   }
-
-
+  
+  
 
   #topics {
     display: grid;
@@ -923,19 +863,16 @@ footer {
     gap: 10px;
     margin-top: 10px;
   }
-
   .card {
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
     align-items: center;
   }
-
-  .card>img {
+  .card > img {
     width: 100%;
     height: 150px;
   }
-
   .funding-info {
     display: flex;
     flex-flow: row nowrap;
@@ -955,7 +892,7 @@ footer {
     border: none;
   }
 
-  .funding-info>* {
+  .funding-info > * {
     padding: 0 10px;
     border-left: 2px #f42 solid;
   }
