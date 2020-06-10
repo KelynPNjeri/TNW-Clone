@@ -658,6 +658,10 @@ footer {
     align-items: center;
     width: fit-content;
   }
+  .actions p,
+.actions a {
+  display: inline-block ;
+}
   .logo {
     width: 10%;
     align-items: center;
