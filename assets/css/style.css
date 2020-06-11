@@ -857,7 +857,7 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 10px;
   }
-  
+
   .funding-container {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
@@ -943,7 +943,7 @@ footer {
     margin-left: 15px;
     position: absolute;
   }
-  
+
   #topics {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
