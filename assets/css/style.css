@@ -653,7 +653,15 @@ footer {
     background-color: #000;
     height: 6vh;
   }
-
+  
+  .logo1 ul {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
+    align-items: center;
+    width: fit-content;
+  }
+  
   .upper-navbar div ul {
     display: flex;
     flex-flow: row nowrap;
@@ -722,8 +730,7 @@ footer {
   }
 
   .logo1,
-  .actions,
-  .logo1 ul {
+  .actions {
     display: flex;
     flex-flow: row nowrap;
     list-style-type: none;
@@ -737,6 +744,9 @@ footer {
 
   .actions p {
     display: inline-block;
+    padding: 10px;
+    font-size: 13px;
+    font-family: Shentox, sans-serif;
   }
 
   .logo {
@@ -775,13 +785,7 @@ footer {
     justify-content: space-evenly;
     align-items: center;
   }
-
-  .actions p {
-    padding: 10px;
-    font-size: 13px;
-    font-family: Shentox, sans-serif;
-  }
-
+  
   .timer {
     font-size: 16px;
     color: #f42;
