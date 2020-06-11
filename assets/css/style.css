@@ -281,7 +281,7 @@ a {
   row-gap: 10px;
 }
 
-.card>img {
+.card > img {
   width: 75px;
   height: 75px;
   padding-right: 20px;
@@ -426,7 +426,7 @@ a {
   position: absolute;
 }
 
-.app-latest-news p>a:hover {
+.app-latest-news p > a:hover {
   text-decoration: underline;
 }
 
