@@ -858,12 +858,6 @@ footer {
     grid-column-gap: 10px;
   }
 
-  .funding-container {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    row-gap: 10px;
-  }
-
   .funding-container .cards {
     display: flex;
     flex-direction: column;
