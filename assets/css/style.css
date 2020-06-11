@@ -676,12 +676,24 @@ footer {
     font-family: Avalon, sans-serif;
   }
   
+  .actions a {
+    display: inline-block;
+  }
+  
   .company-specific-info span a {
     text-decoration: none;
     color: #aaa;
     font-size: 14px;
   }
-
+  
+  .logo1 ul > li > a {
+    padding: 0 10px;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #aaa;
+    font-family: Shentox, sans-serif;
+  }
+  
   .upper-navbar div ul li > a {
     color: #aaa;
     font-size: 12px;
@@ -723,8 +735,7 @@ footer {
     color: black;
   }
 
-  .actions p,
-  .actions a {
+  .actions p {
     display: inline-block;
   }
 
@@ -741,15 +752,7 @@ footer {
   .logo1 ul > li:nth-child(1) {
     padding: 0;
   }
-
-  .logo1 ul > li > a {
-    padding: 0 10px;
-    font-size: 13px;
-    text-transform: uppercase;
-    color: #aaa;
-    font-family: Shentox, sans-serif;
-  }
-
+  
   .fa-bars {
     display: none;
   }
