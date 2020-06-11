@@ -910,7 +910,7 @@ footer {
 
   .company-specific-info span a:hover {
     text-decoration: none;
-    color: #black;
+    color: black;
   }
 
   .card-description {
@@ -1008,3 +1008,9 @@ footer {
     margin-top: 20px;
   }
 }
+
+
+
+
+
+
