@@ -661,9 +661,6 @@ footer {
   .upper-navbar div ul {
     display: flex;
     flex-flow: row nowrap;
-  }
-
-  .upper-navbar div ul {
     list-style-type: none;
     padding: 10px;
   }
