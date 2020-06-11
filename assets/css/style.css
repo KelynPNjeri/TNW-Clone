@@ -235,6 +235,10 @@ a {
   color: #000;
 }
 
+.app-image a:hover {
+  text-decoration: underline;
+}
+
 .details span a:hover {
   color: black;
   text-decoration: none;
@@ -447,10 +451,6 @@ a {
   font-size: 1rem;
   line-height: 1.6;
   padding: 0 1.2rem;
-}
-
-.app-image a:hover {
-  text-decoration: underline;
 }
 
 .app-latest-news {
