@@ -110,12 +110,12 @@ a {
 }
 
 #news .item1 {
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.6) 100%,
-     rgba(0, 0, 0, 0.7) 100%),
-    url("../images/mark.jpg");
-  background-position: center;
-  background-size: cover;
+      background:
+      linear-gradient(rgba(0, 0, 0, 0.6) 100%,
+      rgba(0, 0, 0, 0.7) 100%),
+     url("../images/mark.jpg");
+     background-position: center;
+     background-size: cover;
 }
 
 #news .item2 {
