@@ -117,6 +117,10 @@ a {
      background-size: cover;
 }
 
+.item2 {
+  padding: 0 10px;
+}
+
 #news .item2 {
   background:
     linear-gradient(rgba(0, 0, 0, 0.6) 100%,
