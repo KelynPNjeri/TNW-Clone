@@ -145,12 +145,6 @@ a {
   padding: 0 10px;
 }
 
-.news-details {
-  font-size: 12px;
-  width: 30%;
-  white-space: nowrap;
-}
-
 .box {
   min-height: 100px;
   display: flex;
@@ -179,6 +173,8 @@ a {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  font-size: 12px;
+  white-space: nowrap;
 }
 
 .news-details .icon {
