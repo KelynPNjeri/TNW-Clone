@@ -43,8 +43,6 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@Sajjad Ahmad](https://twitter.com/Sajjad_Ahmad14)
 - Linkedin: [Sajjad Ahmad](https://www.linkedin.com/in/sajjad-ahmad-86102117a/)
 
-
-
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
