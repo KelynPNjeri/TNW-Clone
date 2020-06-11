@@ -194,6 +194,12 @@ a {
   text-decoration: none;
 }
 
+.link a {
+  color: #aaa;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
 .latest-news h2 a {
   font-family:
     Avalon,
@@ -538,12 +544,6 @@ footer {
 .link {
   font-size: 13px;
   padding: 15px 20px;
-}
-
-.link a {
-  color: #aaa;
-  font-weight: bold;
-  margin: 0 auto;
 }
 
 @media only screen and (min-width: 768px) {
