@@ -79,7 +79,7 @@ a {
   width: 20px;
 }
 
-.menu-icon>div {
+.menu-icon > div {
   height: 3px;
 }
 
@@ -110,7 +110,8 @@ a {
 }
 
 #news .item1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.7) 100%),
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.7) 100%),
     url("../images/mark.jpg");
   background-position: center;
   background-size: cover;
@@ -124,7 +125,8 @@ a {
 }
 
 #news .item3 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.7) 100%),
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.7) 100%),
     url("../images/trump.png");
   background-position: center;
   background-size: cover;
@@ -187,7 +189,7 @@ a {
 }
 
 .details span a {
-  color: #AAAAAA;
+  color: #aaaaaa;
   font-size: 14px;
 }
 
@@ -262,7 +264,8 @@ a {
 }
 
 .app-img {
-  background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.7) 100%),
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.7) 100%),
     url("../images/mark.jpg");
   background-position: center;
   background-size: cover;
@@ -276,7 +279,7 @@ a {
 }
 
 .funding a {
-  color: #ff4422;
+  color: #f42;
   text-decoration: none;
 }
 
@@ -342,12 +345,12 @@ a {
   font-size: 12px;
 }
 
-.company-specific-info div>i {
+.company-specific-info div  > i {
   color: #000;
   font-size: 16px;
 }
 
-.company-specific-info div>span {
+.company-specific-info div >span {
   padding-left: 10px;
   font-size: 14px;
 }
@@ -423,7 +426,7 @@ a {
   padding: 10px;
 }
 
-.app-latest-news div>p {
+.app-latest-news div > p {
   padding: 5px 0 0 0;
   margin: 0;
 }
@@ -471,7 +474,6 @@ a {
 .bold {
   color: #000;
 }
-
 
 footer {
   position: relative;
@@ -651,7 +653,6 @@ footer {
   .upper-navbar div ul {
     display: flex;
     flex-flow: row nowrap;
-
   }
 
   .upper-navbar div ul {
@@ -764,7 +765,7 @@ footer {
   .actions .btn {
     border: none;
     border-radius: 2px;
-    background-color: #00cccc;
+    background-color: #0cc;
     color: #fff;
     padding: 5px 12px;
     margin-right: 5px;
@@ -806,7 +807,7 @@ footer {
   }
 
   #news .news-details p {
-    color: rgba(255, 255, 255, 0.6)
+    color: rgba(255, 255, 255, 0.6);
   }
 
   #news .news-details p a:hover {
@@ -846,11 +847,8 @@ footer {
   .funding-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
     grid-column-gap: 10px;
-
   }
-
 
   .funding-container {
     display: grid;
@@ -865,7 +863,7 @@ footer {
   }
 
   .funding-container .cards h4 {
-    background: #ff4422;
+    background: #f42;
     color: #fff;
     margin: 0;
     padding: 10px 85px 10px;
@@ -904,7 +902,7 @@ footer {
 
   .company-specific-info span a {
     text-decoration: none;
-    color: #AAAAAA;
+    color: #aaaaaa;
     font-size: 14px;
   }
 
@@ -937,9 +935,7 @@ footer {
     margin-left: 15px;
     position: absolute;
   }
-
-
-
+  
   #topics {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -999,7 +995,6 @@ footer {
   .social {
     margin: 0 auto;
   }
-
 
   footer {
     position: relative;
