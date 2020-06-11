@@ -1,6 +1,7 @@
 # TNW CLONE
 
-> This website project is clone of TNW website. We used CSS media queries to make this responsive on Mobile, Tablet and Desktop.
+> This website project is clone of TNW website. We used CSS media queries to
+> make this responsive on Mobile, Tablet and Desktop.
 
 ![screenshot](./app_screenshot.png)
 
@@ -16,7 +17,6 @@ We used mixture of CSS flex and Grid to layout it.
 
 [Live Demo Link](https://rawcdn.githack.com/KelynPNjeri/TNW-Clone/d2983a6bd16156197434065ab6879615e7f3c351/index.html)
 
-
 ## Getting Started
 
 **Feel Free To Clone The Project And Use Our Code.**
@@ -28,8 +28,6 @@ To get a local copy up and running follow these simple example steps.
 ### No Setup required
 
 ### Clone It Or Use The Code
-
-
 
 ## Authors
 
