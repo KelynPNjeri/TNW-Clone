@@ -252,6 +252,11 @@ a {
   text-decoration: none;
 }
 
+.topic-heads a:hover {
+  color: black;
+  text-decoration: none;
+}
+
 .details span a:hover {
   color: black;
   text-decoration: none;
@@ -297,11 +302,6 @@ a {
 .card a:hover {
   text-decoration: underline;
   color: #f42;
-}
-
-.topic-heads a:hover {
-  color: black;
-  text-decoration: none;
 }
 
 #topics,
