@@ -217,6 +217,11 @@ a {
   color: #f42;
 }
 
+.card a {
+  text-decoration: none;
+  color: #000;
+}
+
 .latest-news h2 a {
   font-family:
     Avalon,
@@ -296,11 +301,6 @@ a {
 .card h4 {
   margin: 0;
   font-family: ARSMaquette, Helvetica Neue, Arial, sans-serif;
-  color: #000;
-}
-
-.card a {
-  text-decoration: none;
   color: #000;
 }
 
