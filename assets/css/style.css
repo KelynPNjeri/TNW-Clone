@@ -108,6 +108,10 @@ a {
   font-size: Avalon;
 }
 
+.item1 {
+  padding: 0 10px;
+}
+
 #news .item1 {
       background:
       linear-gradient(rgba(0, 0, 0, 0.6) 100%,
@@ -130,6 +134,10 @@ a {
   background-size: cover;
 }
 
+.item3 {
+  padding: 0 10px;
+}
+
 #news .item3 {
   background:
     linear-gradient(rgba(0, 0, 0, 0.6) 100%,
@@ -137,12 +145,6 @@ a {
     url("../images/trump.png");
   background-position: center;
   background-size: cover;
-}
-
-.item1,
-.item2,
-.item3 {
-  padding: 0 10px;
 }
 
 .box {
