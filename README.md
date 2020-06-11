@@ -3,7 +3,7 @@
 > This website project is clone of TNW website. We used CSS media queries to
 > make this responsive on Mobile, Tablet and Desktop.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./assets/images/tnw.png)
 
 We used mixture of CSS flex and Grid to layout it.
 
@@ -33,9 +33,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- Github: [@githubhandle](https://github.com/KelynPNjeri)
-- Twitter: [@twitterhandle](https://twitter.com/KelynNjeri)
-- Linkedin: [linkedin](https://www.linkedin.com/in/kelyn-paul)
+- Github: [@KelynPNjeri](https://github.com/KelynPNjeri)
+- Twitter: [@KelynNjeri](https://twitter.com/KelynNjeri)
+- Linkedin: [Kelyn Njeri](https://www.linkedin.com/in/kelyn-paul)
 
 👤 **Author2**
 
