@@ -111,14 +111,16 @@ a {
 
 #news .item1 {
   background: 
-    linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.7) 100%),
+    linear-gradient(rgba(0, 0, 0, 0.6) 100%, 
+      rgba(0, 0, 0, 0.7) 100%),
     url("../images/mark.jpg");
   background-position: center;
   background-size: cover;
 }
 
 #news .item2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.7) 100%),
+  background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, 
+    rgba(0, 0, 0, 0.7) 100%),
     url("../images/shopify.jpg");
   background-position: center;
   background-size: cover;
@@ -126,7 +128,8 @@ a {
 
 #news .item3 {
   background: 
-    linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.7) 100%),
+    linear-gradient(rgba(0, 0, 0, 0.6) 100%, 
+      rgba(0, 0, 0, 0.7) 100%),
     url("../images/trump.png");
   background-position: center;
   background-size: cover;
@@ -189,7 +192,7 @@ a {
 }
 
 .details span a {
-  color: #aaaaaa;
+  color: #aaa;
   font-size: 14px;
 }
 
@@ -265,7 +268,8 @@ a {
 
 .app-img {
   background: 
-    linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.7) 100%),
+    linear-gradient(rgba(0, 0, 0, 0.6) 100%, 
+      rgba(0, 0, 0, 0.7) 100%),
     url("../images/mark.jpg");
   background-position: center;
   background-size: cover;
@@ -302,7 +306,7 @@ a {
 }
 
 .funding-container .cards h4 {
-  background: #ff4422;
+  background: #f42;
   color: #fff;
   margin: 0;
   padding: 10px 85px 10px;
@@ -902,7 +906,7 @@ footer {
 
   .company-specific-info span a {
     text-decoration: none;
-    color: #aaaaaa;
+    color: #aaa;
     font-size: 14px;
   }
 
