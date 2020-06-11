@@ -223,7 +223,7 @@ a {
 
 .card .details {
   padding-top: 10px;
-  font-family: Times New Roman;
+  font-family: Times New Roman, sans-serif;
   font-size: 14px;
   color: #aaa;
 }
