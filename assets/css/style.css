@@ -200,6 +200,12 @@ a {
   margin: 0 auto;
 }
 
+.app-item a {
+  color: #555;
+  text-decoration: none;
+  font-size: 12px;
+}
+
 .latest-news h2 a {
   font-family:
     Avalon,
@@ -212,6 +218,10 @@ a {
 .details span a {
   color: #aaa;
   font-size: 14px;
+}
+
+.app-items a:hover {
+  color: #000;
 }
 
 .details span a:hover {
@@ -474,16 +484,6 @@ a {
   content: "\2022";
   color: #f42;
   padding: 10px 10px 10px 0;
-}
-
-.app-item a {
-  color: #555;
-  text-decoration: none;
-  font-size: 12px;
-}
-
-.app-items a:hover {
-  color: #000;
 }
 
 .strike {
