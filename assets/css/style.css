@@ -186,6 +186,14 @@ a {
   height: 20px;
 }
 
+.topic-heads a {
+  color: #f42;
+  text-decoration: none;
+  position: absolute;
+  margin-top: 0;
+}
+[
+
 .latest-news h2 a {
   font-family:
     Avalon,
@@ -245,13 +253,6 @@ a {
 .card a:hover {
   text-decoration: underline;
   color: #f42;
-}
-
-.topic-heads a {
-  color: #f42;
-  text-decoration: none;
-  position: absolute;
-  margin-top: 0;
 }
 
 .topic-heads a:hover {
