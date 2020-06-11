@@ -818,6 +818,13 @@ footer {
     border: none;
   }
   
+  .company-details p:nth-child(2) {
+    font-family: Shentox;
+    font-size: 11px;
+    color: #555;
+    margin-top: -15px;
+  }
+  
   #news .news-details p {
     color: rgba(255, 255, 255, 0.6);
   }
@@ -894,14 +901,7 @@ footer {
     padding-top: 2px;
     margin-top: -10px;
   }
-
-  .company-details p:nth-child(2) {
-    font-family: Shentox;
-    font-size: 11px;
-    color: #555;
-    margin-top: -15px;
-  }
-
+  
   .company-specific-info {
     padding: 10px 15px;
   }
