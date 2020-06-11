@@ -806,7 +806,12 @@ footer {
     display: flex;
     justify-content: flex-start;
   }
-
+  
+  .funding-info p:nth-child(1) {
+    padding: 0 10px 0 0;
+    border: none;
+  }
+  
   #news .news-details p {
     color: rgba(255, 255, 255, 0.6);
   }
@@ -965,12 +970,7 @@ footer {
     align-items: center;
     padding-top: 20px;
   }
-
-  .funding-info p:nth-child(1) {
-    padding: 0 10px 0 0;
-    border: none;
-  }
-
+  
   .funding-info > * {
     padding: 0 10px;
     border-left: 2px #f42 solid;
