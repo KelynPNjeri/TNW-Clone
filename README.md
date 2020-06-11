@@ -39,9 +39,11 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author2**
 
-- Github: [@githubhandle](https://github.com/SajjadAhmad14)
-- Twitter: [@twitterhandle](https://twitter.com/KelynNjeri)
-- Linkedin: [linkedin](https://www.linkedin.com/in/kelyn-paul)
+- Github: [@SajjadAhmad14](https://github.com/SajjadAhmad14)
+- Twitter: [@Sajjad Ahmad](https://twitter.com/Sajjad_Ahmad14)
+- Linkedin: [Sajjad Ahmad](https://www.linkedin.com/in/sajjad-ahmad-86102117a/)
+
+
 
 ## 🤝 Contributing
 
@@ -55,6 +57,5 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Team Ocicats
+- TNW Landing Page
