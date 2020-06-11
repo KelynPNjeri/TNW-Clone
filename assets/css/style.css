@@ -661,6 +661,16 @@ footer {
     padding: 10px;
   }
   
+  .item1 > a {
+    font-size: 56px;
+    font-family: Avalon, sans-serif;
+  }
+  
+  .item2 > a {
+    font-size: 22px;
+    font-family: Avalon, sans-serif;
+  }
+  
   .item3 > a {
     font-size: 22px;
     font-family: Avalon, sans-serif;
@@ -794,21 +804,11 @@ footer {
     padding: 0 10px;
     height: 80vh;
   }
-
-  .item1 > a {
-    font-size: 56px;
-    font-family: Avalon, sans-serif;
-  }
-
+  
   .item1,
   .item2,
   .item3 {
     padding: 10px 20px;
-  }
-
-  .item2 > a {
-    font-size: 22px;
-    font-family: Avalon, sans-serif;
   }
 
   .news-details {
