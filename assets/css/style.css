@@ -815,6 +815,11 @@ footer {
   #news .news-details p {
     color: rgba(255, 255, 255, 0.6);
   }
+  
+  .company-specific-info span a:hover {
+    text-decoration: none;
+    color: black;
+  }
 
   #news .news-details p a:hover {
     color: #ffff;
@@ -905,12 +910,7 @@ footer {
     color: #aaa;
     font-size: 14px;
   }
-
-  .company-specific-info span a:hover {
-    text-decoration: none;
-    color: black;
-  }
-
+  
   .card-description {
     color: #555;
     border-top: 2px rgba(255, 68, 34, 0.08) solid;
