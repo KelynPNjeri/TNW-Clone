@@ -857,6 +857,12 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 10px;
   }
+  
+  .funding-container {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 10px;
+  }
 
   .funding-container .cards {
     display: flex;
