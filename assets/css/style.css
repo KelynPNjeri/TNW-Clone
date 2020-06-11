@@ -213,6 +213,10 @@ a {
   font-weight: 800;
 }
 
+.app a {
+  color: #f42;
+}
+
 .latest-news h2 a {
   font-family:
     Avalon,
@@ -431,10 +435,6 @@ a {
 
 #funding a:hover {
   color: #000;
-}
-
-.app a {
-  color: #f42;
 }
 
 .app-image {
