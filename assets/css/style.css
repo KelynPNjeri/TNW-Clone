@@ -120,7 +120,7 @@ a {
 
 #news .item2 {
   background:
-    linear-gradient(rgba(0, 0, 0, 0.6) 100%, 
+    linear-gradient(rgba(0, 0, 0, 0.6) 100%,
     rgba(0, 0, 0, 0.7) 100%),
     url("../images/shopify.jpg");
   background-position: center;
@@ -129,7 +129,7 @@ a {
 
 #news .item3 {
   background:
-    linear-gradient(rgba(0, 0, 0, 0.6) 100%, 
+    linear-gradient(rgba(0, 0, 0, 0.6) 100%,
       rgba(0, 0, 0, 0.7) 100%),
     url("../images/trump.png");
   background-position: center;
@@ -269,7 +269,7 @@ a {
 
 .app-img {
   background: 
-    linear-gradient(rgba(0, 0, 0, 0.6) 100%, 
+    linear-gradient(rgba(0, 0, 0, 0.6) 100%,
       rgba(0, 0, 0, 0.7) 100%),
     url("../images/mark.jpg");
   background-position: center;
