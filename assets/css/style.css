@@ -660,6 +660,12 @@ footer {
     list-style-type: none;
     padding: 10px;
   }
+  
+  .company-specific-info span a {
+    text-decoration: none;
+    color: #aaa;
+    font-size: 14px;
+  }
 
   .upper-navbar div ul li > a {
     color: #aaa;
@@ -903,12 +909,6 @@ footer {
   .company-specific-info div {
     color: #aaa;
     margin: 5px 0;
-  }
-
-  .company-specific-info span a {
-    text-decoration: none;
-    color: #aaa;
-    font-size: 14px;
   }
   
   .card-description {
