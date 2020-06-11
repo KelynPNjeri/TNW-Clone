@@ -220,6 +220,10 @@ a {
   font-size: 14px;
 }
 
+.app-latest-news div > p > a {
+  color: #f42;
+}
+
 .app-items a:hover {
   color: #000;
 }
@@ -462,10 +466,6 @@ a {
 .app-latest-news div > p {
   padding: 5px 0 0 0;
   margin: 0;
-}
-
-.app-latest-news div > p > a {
-  color: #f42;
 }
 
 .app-items {
