@@ -206,6 +206,13 @@ a {
   font-size: 12px;
 }
 
+.app-image a {
+  text-decoration: none;
+  color: beige;
+  font-family: Avalon;
+  font-weight: 800;
+}
+
 .latest-news h2 a {
   font-family:
     Avalon,
@@ -405,6 +412,10 @@ a {
   position: absolute;
 }
 
+.app-latest-news p>a:hover {
+  text-decoration: underline;
+}
+
 #funding a {
   text-decoration: none;
   color: #f42;
@@ -438,15 +449,7 @@ a {
   padding: 0 1.2rem;
 }
 
-.app-image a {
-  text-decoration: none;
-  color: beige;
-  font-family: Avalon;
-  font-weight: 800;
-}
-
-.app-image a:,
-.app-latest-news p>a:hover {
+.app-image a:hover {
   text-decoration: underline;
 }
 
