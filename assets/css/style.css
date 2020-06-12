@@ -289,6 +289,13 @@ a {
   row-gap: 10px;
 }
 
+.section-intro h2 {
+  color: #ff4422;
+}
+.section-intro a {
+  display: none;
+}
+
 .card > img {
   width: 75px;
   height: 75px;
@@ -734,6 +741,18 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     margin-top: 10px;
+  }
+
+  .section-intro {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .section-intro a {
+    display: inline;
+    color: #ff4422;
   }
 
   footer {
