@@ -727,9 +727,9 @@ footer {
   }
 
   .box img {
-    width: 100px;
-    height: 50px;
-  }
+    width: 60%;
+    padding: 10px 5px;
+}
 
   .funding-container {
     display: grid;
@@ -1020,10 +1020,10 @@ footer {
     column-gap: 10px;
   }
 
-  .box img {
+  /* .box img {
     width: 100px;
     height: 50px;
-  }
+  } */
 
   .funding {
     height: 70vh;
