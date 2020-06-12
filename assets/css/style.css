@@ -305,7 +305,10 @@ a {
 .card {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
+}
+.card>div {
+  padding-left: 10px;
 }
 
 .card .details {
@@ -709,6 +712,10 @@ footer {
     flex-flow: column nowrap;
     justify-content: flex-start;
     align-items: center;
+  }
+
+  .card>div {
+    padding: 0;
   }
 
   .card > img {
