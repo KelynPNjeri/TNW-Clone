@@ -161,6 +161,7 @@ a {
   font-size: 1rem;
   line-height: 1.6;
 }
+
 .news-logo {
   display: none;
 }
@@ -232,6 +233,10 @@ a {
   color: #000;
 }
 
+.section-intro a {
+  display: none;
+}
+
 .latest-news h2 a {
   font-family:
     Avalon,
@@ -290,10 +295,7 @@ a {
 }
 
 .section-intro h2 {
-  color: #ff4422;
-}
-.section-intro a {
-  display: none;
+  color: #f42;
 }
 
 .card > img {
@@ -307,7 +309,8 @@ a {
   flex-flow: row nowrap;
   justify-content: space-between;
 }
-.card>div {
+
+.card > div {
   padding-left: 10px;
 }
 
@@ -379,6 +382,10 @@ a {
   height: 6vh;
 }
 
+.cards > p {
+  background-color: rgba(255, 68, 34, 0.03);
+}
+
 .app-latest-news div > p {
   padding: 5px 0 0 0;
   margin: 0;
@@ -398,13 +405,9 @@ a {
   white-space: nowrap;
 }
 
-.cards > p {
-  background-color: rgba(255,68,34,.03);
-}
-
 .company-specific-info {
   padding: 10px 15px;
-  background-color: rgba(255,68,34,.03);
+  background-color: rgba(255, 68, 34, 0.03);
 }
 
 .company-specific-info div {
@@ -697,7 +700,7 @@ footer {
     flex-flow: row nowrap;
     align-items: center;
     justify-content: space-between;
-  } 
+  }
 
   .grid-parent,
   #latest-deals {
@@ -714,7 +717,7 @@ footer {
     align-items: center;
   }
 
-  .card>div {
+  .card > div {
     padding: 0;
   }
 
@@ -762,15 +765,6 @@ footer {
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-  }
-
-  .section-intro a {
-    display: inline;
-    color: #ff4422;
-  }
-
-  .section-intro a:hover {
-    color: #000000;
   }
 
   footer {
@@ -834,6 +828,11 @@ footer {
     display: inline-block;
   }
 
+  .section-intro a {
+    display: inline;
+    color: #f42;
+  }
+
   .company-specific-info span a {
     text-decoration: none;
     color: #aaa;
@@ -882,6 +881,10 @@ footer {
     list-style-type: none;
     align-items: center;
     width: fit-content;
+  }
+
+  .section-intro a:hover {
+    color: #000;
   }
 
   .logo1 ul a:hover {
@@ -975,7 +978,6 @@ footer {
     font-size: 11px;
     color: #555;
     margin-top: -15px;
-    
   }
 
   .company-details p:nth-child(1) {
