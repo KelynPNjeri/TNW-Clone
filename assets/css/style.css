@@ -161,6 +161,9 @@ a {
   font-size: 1rem;
   line-height: 1.6;
 }
+.news-logo {
+  display: none;
+}
 
 .box a {
   text-decoration: none;
@@ -665,6 +668,19 @@ footer {
   .span {
     grid-row: 1 / span 2;
   }
+
+  .item1 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+  }
+
+  .news-logo {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+  } 
 
   .grid-parent,
   #latest-deals {
