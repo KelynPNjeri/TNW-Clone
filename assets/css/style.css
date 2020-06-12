@@ -79,7 +79,7 @@ a {
   width: 20px;
 }
 
-.menu-icon>div {
+.menu-icon > div {
   height: 3px;
 }
 
@@ -113,8 +113,10 @@ a {
 
 #news .item1 {
   background:
-    linear-gradient(rgba(0, 0, 0, 0.6) 100%,
-      rgba(0, 0, 0, 0.7) 100%),
+    linear-gradient(
+      rgba(0, 0, 0, 0.6) 100%,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
     url("../images/mark.jpg");
   background-position: center;
   background-size: cover;
@@ -126,8 +128,10 @@ a {
 
 #news .item2 {
   background:
-    linear-gradient(rgba(0, 0, 0, 0.6) 100%,
-      rgba(0, 0, 0, 0.7) 100%),
+    linear-gradient(
+      rgba(0, 0, 0, 0.6) 100%,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
     url("../images/shopify.jpg");
   background-position: center;
   background-size: cover;
@@ -139,8 +143,10 @@ a {
 
 #news .item3 {
   background:
-    linear-gradient(rgba(0, 0, 0, 0.6) 100%,
-      rgba(0, 0, 0, 0.7) 100%),
+    linear-gradient(
+      rgba(0, 0, 0, 0.6) 100%,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
     url("../images/trump.png");
   background-position: center;
   background-size: cover;
@@ -237,7 +243,7 @@ a {
   font-size: 14px;
 }
 
-.app-latest-news div>p>a {
+.app-latest-news div > p > a {
   color: #f42;
 }
 
@@ -280,9 +286,10 @@ a {
   row-gap: 10px;
 }
 
-.card>img {
+.card > img {
   width: 75px;
   height: 75px;
+
   /* padding-right: 20px; */
 }
 
@@ -319,7 +326,7 @@ a {
 .app-img {
   background:
     linear-gradient (rgba(0, 0, 0, 0.6) 100%,
-      rgba(0, 0, 0, 0.7) 100%),
+    rgba(0, 0, 0, 0.7) 100%),
     url("../images/mark.jpg");
   background-position: center;
   background-size: cover;
@@ -360,7 +367,7 @@ a {
   height: 6vh;
 }
 
-.app-latest-news div>p {
+.app-latest-news div > p {
   padding: 5px 0 0 0;
   margin: 0;
 }
@@ -403,7 +410,7 @@ a {
   color: #fff;
 }
 
-.company-specific-info div>i {
+.company-specific-info div > i {
   color: #000;
   font-size: 16px;
 }
@@ -412,7 +419,7 @@ a {
   padding: 0 5px;
 }
 
-.company-specific-info div>span {
+.company-specific-info div > span {
   padding-left: 10px;
   font-size: 14px;
 }
@@ -425,7 +432,7 @@ a {
   position: absolute;
 }
 
-.app-latest-news p>a:hover {
+.app-latest-news p > a:hover {
   text-decoration: underline;
 }
 
@@ -576,7 +583,7 @@ footer {
     padding: 10px;
   }
 
-  .logo1 ul>li>a {
+  .logo1 ul > li > a {
     padding: 0 10px;
     font-size: 13px;
     text-transform: uppercase;
@@ -584,7 +591,7 @@ footer {
     font-family: Shentox, sans-serif;
   }
 
-  .upper-navbar div ul li>a {
+  .upper-navbar div ul li > a {
     color: #aaa;
     font-size: 12px;
     padding: 0 10px;
@@ -642,7 +649,7 @@ footer {
     width: fit-content;
   }
 
-  .logo1 ul>li:nth-child(1) {
+  .logo1 ul > li:nth-child(1) {
     margin-left: -40px;
   }
 
@@ -675,7 +682,7 @@ footer {
     align-items: center;
   }
 
-  .card>img {
+  .card > img {
     width: 100%;
     height: 150px;
   }
@@ -756,17 +763,17 @@ footer {
     padding: 10px;
   }
 
-  .item1>a {
+  .item1 > a {
     font-size: 56px;
     font-family: Avalon, sans-serif;
   }
 
-  .item2>a {
+  .item2 > a {
     font-size: 22px;
     font-family: Avalon, sans-serif;
   }
 
-  .item3>a {
+  .item3 > a {
     font-size: 22px;
     font-family: Avalon, sans-serif;
   }
@@ -781,7 +788,7 @@ footer {
     font-size: 14px;
   }
 
-  .logo1 ul>li>a {
+  .logo1 ul > li > a {
     padding: 0 10px;
     font-size: 13px;
     text-transform: uppercase;
@@ -789,7 +796,7 @@ footer {
     font-family: Shentox, sans-serif;
   }
 
-  .upper-navbar div ul li>a {
+  .upper-navbar div ul li > a {
     color: #aaa;
     font-size: 12px;
     padding: 0 10px;
@@ -836,11 +843,11 @@ footer {
     font-family: Shentox, sans-serif;
   }
 
-  .logo1 ul>li {
+  .logo1 ul > li {
     white-space: nowrap;
   }
 
-  .logo1 ul>li:nth-child(1) {
+  .logo1 ul > li:nth-child(1) {
     padding: 0;
     margin-left: -35px;
   }
@@ -937,7 +944,7 @@ footer {
     color: #ffff;
   }
 
-  .news-details>* {
+  .news-details > * {
     padding: 5px;
   }
 
@@ -1011,12 +1018,12 @@ footer {
     font-size: 12px;
   }
 
-  .company-specific-info div>i {
+  .company-specific-info div > i {
     color: #000;
     font-size: 16px;
   }
 
-  .company-specific-info div>span {
+  .company-specific-info div > span {
     padding-left: 10px;
     font-size: 14px;
   }
@@ -1043,7 +1050,7 @@ footer {
     align-items: center;
   }
 
-  .card>img {
+  .card > img {
     width: 100%;
     height: 150px;
   }
@@ -1064,7 +1071,7 @@ footer {
     padding-top: 20px;
   }
 
-  .funding-info>* {
+  .funding-info > * {
     padding: 0 10px;
     border-left: 2px #f42 solid;
   }
@@ -1075,7 +1082,7 @@ footer {
     border-bottom: 1px #ccc solid;
   }
 
-  .social>* {
+  .social > * {
     margin: 0 10px;
   }
 
