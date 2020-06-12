@@ -392,10 +392,16 @@ a {
   font-size: 11px;
   color: #555;
   margin-top: -15px;
+  white-space: nowrap;
+}
+
+.cards > p {
+  background-color: rgba(255,68,34,.03);
 }
 
 .company-specific-info {
   padding: 10px 15px;
+  background-color: rgba(255,68,34,.03);
 }
 
 .company-specific-info div {
@@ -408,6 +414,7 @@ a {
   border-top: 2px rgba(255, 68, 34, 0.08) solid;
   padding: 10px 10px;
   font-size: 12px;
+  margin: 0;
 }
 
 .social i {
@@ -755,6 +762,10 @@ footer {
     color: #ff4422;
   }
 
+  .section-intro a:hover {
+    color: #000000;
+  }
+
   footer {
     position: relative;
     bottom: 0;
@@ -957,6 +968,7 @@ footer {
     font-size: 11px;
     color: #555;
     margin-top: -15px;
+    
   }
 
   .company-details p:nth-child(1) {
