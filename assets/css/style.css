@@ -739,6 +739,9 @@ footer {
     padding-top: 20px;
   }
 
+  .cards>h4 {
+    white-space: nowrap;
+  }
   .cards img {
     width: 60px;
     height: 60px;
