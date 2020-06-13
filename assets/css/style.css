@@ -729,7 +729,7 @@ footer {
   .box img {
     width: 60%;
     padding: 10px 5px;
-}
+  }
 
   .funding-container {
     display: grid;
@@ -739,9 +739,10 @@ footer {
     padding-top: 20px;
   }
 
-  .cards>h4 {
+  .cards > h4 {
     white-space: nowrap;
   }
+
   .cards img {
     width: 60px;
     height: 60px;
