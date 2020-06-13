@@ -692,14 +692,11 @@ footer {
   .item1 {
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-between;
+    justify-content: flex-end;
   }
 
   .news-logo {
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: space-between;
+    display: none;
   }
 
   .grid-parent,
@@ -724,11 +721,6 @@ footer {
   .card > img {
     width: 100%;
     height: 150px;
-  }
-
-  .box img {
-    width: 60%;
-    padding: 10px 5px;
   }
 
   .funding-container {
@@ -826,6 +818,29 @@ footer {
   .item3 > a {
     font-size: 22px;
     font-family: Avalon, sans-serif;
+  }
+
+  .item1 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+  }
+
+  .news-logo {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    height: fit-content;
+  }
+
+  .box img {
+    width: 70%;
+    padding: 10px 5px;
+  }
+
+  .main-card-details {
+    display: flex;
+    flex-flow: column nowrap;
   }
 
   .actions a {
@@ -1023,11 +1038,6 @@ footer {
     grid-template-rows: auto auto;
     column-gap: 10px;
   }
-
-  /* .box img {
-    width: 100px;
-    height: 50px;
-  } */
 
   .funding {
     height: 70vh;
